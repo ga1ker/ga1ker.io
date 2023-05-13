@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
 * {
-    background-color: rgb(79, 102, 158);
+    background-color: rgb(18, 31, 62);
     font-family: sans-serif;
+    color: hsl(0, 0%, 100%);
 }
 
-h1 {
+#sombra {
+    color: #000000;
     border-radius: 50px;
     text-align: center;
     box-shadow: 0px 1px 50px 1px;
-    
+}
+
+
+h1 {
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-bottom: 50px;
 }
 
 p {
@@ -22,12 +30,12 @@ p {
     margin-left: auto;
     width: 60px;
     height: 60px;
-    border-color: #a5cce5;
+    border-color: #0077ff;
     color: #fff;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    box-shadow: 0 0 40px 40px #112456 inset, 0 0 0 0 #ffffff;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
   }
   .third:hover {
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    box-shadow: 0 0 10px 0 #000000 inset, 0 0 10px 4px #3498db;
   }
